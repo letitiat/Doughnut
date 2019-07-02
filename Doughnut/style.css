@@ -1,0 +1,46 @@
+@font-face {
+  font-family: bigNoodle;
+  src: url(fonts/big_noodle_titling-webfont.woff);
+}
+
+body {
+  background-color: #313E3F;
+}
+
+.doughnuts {
+  margin-top: 100px;
+  position: relative;
+  width: 800px;
+  height: 450px;
+  align-self: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+  .caption {
+    top: 205px;
+    left: 325px;
+    font-family: bigNoodle,sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+ .doughnut1 {
+    position: absolute;
+    z-index: 1;
+  }
+
+.doughnut2 {
+    position: absolute;
+  }
