@@ -1,51 +1,46 @@
-html,body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%
+@font-face {
+  font-family: bigNoodle;
+  src: url(fonts/big_noodle_titling-webfont.woff);
 }
 
 body {
-  background-color: #424647;
+  background-color: #313E3F;
 }
 
+.doughnuts {
+  margin-top: 100px;
+  position: relative;
+  width: 800px;
+  height: 450px;
+  align-self: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
   .caption {
-    font-family: Lato,sans-serif;
-    color: #222;
-    font-size: 12px;
+    top: 205px;
+    left: 325px;
+    font-family: bigNoodle,sans-serif;
+    color: #fff;
+    font-size: 40px;
     font-weight: 600;
     position: absolute;
-    width: 100%;
-    height: 100%;
     text-align: center;
-    line-height: 300px;
     text-transform: uppercase;
     letter-spacing: 1px;
     white-space: nowrap;
-    width: 300px;
   }
 
- .circle01 {
+ .doughnut1 {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    z-index: 1;
   }
 
-.circle02 {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-  }
-
-.circle03 {
-    position: absolute;
-    top: 50px;
-    left: 0px;
-  }
-
-  .chart03 .circle01,
-  .chart03 .circle02,
-  .chart03 .circle03,
-  .chart03 .frame {
+.doughnut2 {
     position: absolute;
   }
